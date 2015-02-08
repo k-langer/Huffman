@@ -1,0 +1,12 @@
+Just rolling my own byte level Huffman encoder in C
+
+Currently does not write the output; mostly just interested
+in seeing how much entropy there is in everyday files.
+
+Maybe I will add a byte output and a decode someday, but 
+it was toy to better visualize various impact of various levels of Huffman. 
+
+TODO: what is the best/fastest way to do bitpacking; need to do that to implement file output. 
+
+USE:
+make && ./Huffman <file>

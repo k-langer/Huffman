@@ -1,0 +1,1 @@
+Testing this byte level structure of huffman. This means that we are only pulling memory out of characters. Characters are only 8 bits, as a result it doesn't matter which letters are around other letters as we are only encoding on byte level memory. 
